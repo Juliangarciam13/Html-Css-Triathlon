@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <form action="Login1.html" method="POST">
+        <div id="username">
+            <label for="user">User Name</label>
+            <input type="text" name="user" id="user" placeholder="Julian Garcia" required> <br>
+        </div>
+        <div id="numberpizzas">
+            <label for="numberpizzas">Number of Pizzas</label>
+            <input type="number" name="numberpizzas" id="numberpizzas" step="1" required min="1"> <br>
+        </div>
+        <div id="term">
+            <label for="term">Term</label>
+            <input type="range" name="term" id="term" step="50" min="o" max="100">
+        </div>
+        <div id="toppings">
+            <p>Choose your pizzas toppings</p>
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" name="topping" id="cheese" value="cheese">
+            <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" name="topping" id="pepperoni" value="peperoni">
+            <label for="vegetables">Vegetables</label>
+            <input type="checkbox" name="topping" id="vegetables" value="vegetables">
+        </div>
+        <div id="sauce">
+            <p>Choose your favorite sauce</p>
+            <label for="tomato">Tomato Paste</label>
+            <input type="radio" name="sauce" id="tomato" value="tomato">
+            <label for="pesto">Pesto Sauce</label>
+            <input type="radio" name="sauce" id="pesto" value="pesto">
+            <label for="bbq">Bbq Sauce</label>
+            <input type="radio" name="sauce" id="bbq" value="bbq"> <br>
+        </div>
+        <div id="size">
+            <p>Select the size</p>
+            <label for="Size pizza"></label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                 <option value="medium">Medium</option>
+                 <option value="big">Big</option>
+            </select> 
+        </div>
+        <div id="neighborhood">         
+             <label for="neighborhood">Choose your neighborhood</label> <br>
+             <input type="text" list="neighborhood" id="neighborhood" name="neighborhood" placeholder="Castellana">
+                <datalist id="neighborhood">
+                   <option value="Castellana"></option>
+                   <option value="Nogal"></option>
+                   <option value="Providencia"></option>
+                   <option value="Profesionales"></option>
+                   <option value="Centro"></option>
+                </datalist> <br>
+        </div>
+        <div id="observation">
+           <label for="observations">Your opinion</label> <br>
+           <textarea id="observations" name="opinion" rows="5" cols="30">
+Some default text
+           </textarea>
+        </div>
+        <div id="submit">
+            <input type="submit" value="send">
+        </div>
+    </form>
+</html>

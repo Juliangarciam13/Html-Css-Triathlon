@@ -1,0 +1,98 @@
+header {
+    margin: 0;
+    padding: 1px 20px 1px 20px;
+    box-sizing: border-box;
+    font-size: 0;
+    background-color: rgba(0, 0, 0, 1);
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+}
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 0px 50px 0px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid:#000;
+    text-align: center;
+    color:#fff;
+    z-index: 10;
+}
+nav li:hover {
+    bacckground-color:#fff;
+    color: white;
+}
+#sports {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+#triatlhon img {
+    width: 100%;
+    height: 20%;
+}
+html {
+    background-color:#ff9500;
+  }
+
+  body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff9500;
+  }
+p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow:0px 5px 5px black ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:aqua;
+}
+p, .Section3 {
+     font-size: 30px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.video{
+    text-align: center;
+}
+.Section1{
+    font-size: 50px;
+    text-shadow:0px 5px 5px black ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.Section2{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Distances {
+     
+}  
+#general {
+    text-align: justify;
+}
+#triatlhon {
+    z-index: 1;
+}  
+#logo, #sport, #personal {
+   text-align: center;
+}  
+  #sports {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
