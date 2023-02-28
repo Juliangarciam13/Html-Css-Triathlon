@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="../Css/styles4.css" >
+    </head>
+    <body>
+        <header>
+            <div id="navigation">
+                <nav>
+                  <ul class="Section1">
+                    <li><a href="../Html-Css-Triathlon/Html/Running.html" target="_blank">Types of Races</a></li>
+                    <li><a href="../index.html" target="_blank">Triatlhon</a></li>
+                    <li><a href="../Html/Running.html" target="_blank">Running</a></li>
+                  </ul>
+                </nav>
+            </div> 
+        </header> <br>
+        <h1>Let´s Meet</h1>
+    <form action="../Html/Contact.html" method="POST">
+        <div id="username">
+            <label for="user"><strong>User Name</strong></label>
+            <input type="text" name="user" id="user" placeholder="Julian Garcia" required> <br>
+        </div>
+        <div id="email">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required> <br>
+        </div>
+        <div id="cellphone">
+            <label for="cellphone"><strong>Cellphone</strong></label>
+            <input type="number" name="cellphone" id="cellphone" required placeholder="3158765768"> <br>
+        </div>
+        <div id="country">
+            <p><strong>Select Your Country</strong></p>
+            <label for="country"></label>
+            <select id="country" name="country">
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                 <option value="Colombia">Colombia</option>
+                 <option value="Ecuador">Ecuador</option>
+                 <option value="Uruguay">Uruguay</option>
+            </select>
+        </div> <br>
+        <div id="city">         
+            <label for="city"><strong>Select Your City</strong></label> <br> <br>
+            <input type="text" list="city1" id="city" name="city" placeholder="Bogota">
+               <datalist id="city1"> <br>
+                  <option value="Bogota"></option>
+                  <option value="Brasilia"></option>
+                  <option value="Montevideo"></option>
+                  <option value="Quito"></option>
+                  <option value="Rosario"></option>
+               </datalist> <br>
+       </div>
+        <div id="contacting">
+            <p><strong>¿Why Do You Visti This Website?</strong></p>
+            <label for="information">Just For Information</label>
+            <input type="checkbox" name="information" id="information" value="information">
+            <label for="participate">I Want To Participate</label>
+            <input type="checkbox" name="participate" id="participate" value="participate">
+            <label for="training">I Want To Start Training</label>
+            <input type="checkbox" name="training" id="training" value="training">
+        </div> <br>
+        <div id="calification">
+            <label for="calification"><strong>Calification This Website</strong></label> <br>
+            <input type="range" name="calification" id="calification" step="50" min="0" max="100">
+        </div> <br>
+        <div id="observation">
+           <label for="observations"><strong>Your opinion</strong></label> <br>
+           <textarea id="observations" name="opinion" rows="5" cols="30">
+Some default text
+           </textarea>
+        </div>
+        <div id="submit">
+            <input type="submit" value="send">
+        </div>
+    </form>
+</body>
+</html>
