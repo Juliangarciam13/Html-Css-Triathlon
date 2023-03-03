@@ -1,59 +1,55 @@
-header {
+html *{
     margin: 0;
-    padding: 5px 20px 5px 20px;
-    background-color: rgba(0, 0, 0, 1);
-}
+    padding: 0;
+ }   
 h1 {
     text-align: center;
-    color: #fff;
+    color: black;
 } 
 nav a {
     text-decoration: none;
     color: inherit;
     font-size: 30px;
 }
-nav ul li {
-    display: inline-block;
-    padding: 0px 50px 0px 50px;
-    background-color: rgba(0, 0, 0, 0);
-    text-align: center;
-    color:#fff;
+.Section1 {
+    font-size: 100%;
+    height: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border: solid 1px black;
+    box-shadow: 0 0 10px 0;
 }
-img {
-    text-align: center;
-}  
+li {
+    list-style: none;
+}
 #races {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-size: 0;
 }
 a:hover{
-    color:aqua;
+    color: black;
 }  
 
   body {
     width: 100%;
     margin: 0 auto;
-    background-color: #3CC14F;
+    background-color: white;
     font-size: 30px;
+    text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .Section1{
-    font-size: 30px;
-    text-shadow:0px 5px 5px black ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-align: center;
-}
 #races ul {
-    font-size: 50px;
+    font-size: 30px;
 }  
 h2, h3 {
-   color: #fff;
-   text-shadow: 0px 5px 5px black;
+   color: black;
 }   
-img {
+body img {
     display: block;
     margin: auto;
 }  
@@ -63,3 +59,84 @@ ol {
 table {
     margin: 0 auto;
 } 
+#navigation {
+    background-image: url(../Html/Imgs/running1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+}  
+#races .Section1{
+    color: white;
+    background-color: rgb(227, 24, 24);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+footer{
+    background-image:url(../Html/Imgs/footerrun.png) ;
+    background-size: cover;
+    background-position: bottom center;
+    height: 200px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+footer a img{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+footer h2{
+color: white;
+text-align: center;
+}
+h2, h3, p{
+    text-align: center;
+}
+.banner1{
+    background-image: url(../Html/Imgs/banner1.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    box-shadow: 0 0 10px 0;
+}
+.banner2{
+    background-image: url(../Html/Imgs/banner2.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    box-shadow: 0 0 10px 0;
+}
+.banner3{
+    background-image: url(../Html/Imgs/banner3.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    box-shadow: 0 0 10px 0;
+}
+.banner4{
+    background-image: url(../Html/Imgs/banner4.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 500px;
+    width: 100%;
+    border: solid 1px black;
+    box-shadow: 0 0 10px 0;
+}
